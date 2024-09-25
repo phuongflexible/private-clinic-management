@@ -24,7 +24,9 @@ Doctors:
 - See appointments made by patients.
 ## Setup
 To run the project:
-- Make sure the equipment has in
-  
+- Make sure the equipment has been installed Java.
+- Run the file .sql in MySQL to create a database.
+- 
+
 
 
