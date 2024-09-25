@@ -13,4 +13,18 @@ A website which supports managing a private clinic.
 - ReactJS: design and create interface.
 - MySQL: database management system is used to manage data.
 ## Features
+Users has roles: admin, doctors, nurses, patients.
+Patients:
+- Register a user account.
+- Make an appointment with doctor.
+Admin:
+- Add, update, delete and see list of doctors, nurses, drugs.
+- Arrange schedules for doctors and nurses.
+Doctors:
+- See appointments made by patients.
+## Setup
+To run the project:
+- Make sure the equipment has in
+  
+
 
