@@ -25,7 +25,9 @@ Doctors:
 ## Setup
 To run the project:
 - Make sure the equipment has been installed Java.
-- Run the file .sql in MySQL to create a database.
+- Run the file .sql in MySQL to create the database.
+- Declare the database's name in: hibernate.connection.url=jdbc:mysql://localhost:3306/_database's name_
+- Declare the password of MySQL in: hibernate.connection.password=_MySQL's password_
 - 
 
 
