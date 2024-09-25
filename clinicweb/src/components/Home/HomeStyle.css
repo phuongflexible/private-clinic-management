@@ -1,0 +1,8 @@
+.card-spec {
+    height: 280px;
+}
+
+.card-image {
+    height: 150px;
+    object-fit: cover;
+}

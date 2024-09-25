@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="com.pthtw_PrivateClinicWebsite_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.pthtw.pojo.Schedule</class>
+    <class>com.pthtw.pojo.Receipt</class>
+    <class>com.pthtw.pojo.PaymentMethod</class>
+    <class>com.pthtw.pojo.Appointment</class>
+    <class>com.pthtw.pojo.Doctor</class>
+    <class>com.pthtw.pojo.MedicinesInPrescription</class>
+    <class>com.pthtw.pojo.Medicine</class>
+    <class>com.pthtw.pojo.User</class>
+    <class>com.pthtw.pojo.Speciality</class>
+    <class>com.pthtw.pojo.Category</class>
+    <class>com.pthtw.pojo.Prescription</class>
+    <class>com.pthtw.pojo.Patient</class>
+    <class>com.pthtw.pojo.Nurse</class>
+    <class>com.pthtw.pojo.ScheduleNurse</class>
+    <class>com.pthtw.pojo.ScheduleDoctor</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/clinicdb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+    </properties>
+  </persistence-unit>
+</persistence>

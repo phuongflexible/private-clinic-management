@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="baseLayout" template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp"/>
+        <put-attribute name="content" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+    </definition>
+    <definition name="index" extends="baseLayout">
+        <put-attribute name="title" value="Trang chủ"/>
+        <put-attribute name="content" value="/WEB-INF/pages/index.jsp"/>
+    </definition>
+    
+    <definition name="doctor" extends="baseLayout">
+        <put-attribute name="title" value="Danh sách bác sĩ"/>
+        <put-attribute name="content" value="/WEB-INF/pages/doctor.jsp"/>
+    </definition>
+    <definition name="addDoctor" extends="baseLayout">
+        <put-attribute name="title" value="Thêm bác sĩ"/>
+        <put-attribute name="content" value="/WEB-INF/pages/addDoctor.jsp"/>
+    </definition>
+    <definition name="findDoctor" extends="baseLayout">
+        <put-attribute name="title" value="Tìm kiếm"/>
+        <put-attribute name="content" value="/WEB-INF/pages/doctor.jsp"/>
+    </definition>
+    
+    <definition name="nurse" extends="baseLayout">
+        <put-attribute name="title" value="Danh sách y tá"/>
+        <put-attribute name="content" value="/WEB-INF/pages/nurse.jsp"/>
+    </definition>
+    <definition name="addNurse" extends="baseLayout">
+        <put-attribute name="title" value="Thêm y tá"/>
+        <put-attribute name="content" value="/WEB-INF/pages/addNurse.jsp"/>
+    </definition>
+    <definition name="findNurse" extends="baseLayout">
+        <put-attribute name="title" value="Tìm kiếm"/>
+        <put-attribute name="content" value="/WEB-INF/pages/nurse.jsp"/>
+    </definition>
+    
+    <definition name="medicine" extends="baseLayout">
+        <put-attribute name="title" value="Danh sách thuốc"/>
+        <put-attribute name="content" value="/WEB-INF/pages/medicine.jsp"/>
+    </definition>
+    
+    <definition name="addMedicine" extends="baseLayout">
+        <put-attribute name="title" value="Thêm thuốc"/>
+        <put-attribute name="content" value="/WEB-INF/pages/addMedicine.jsp"/>
+    </definition>
+    
+    <definition name="arrangeSchedule" extends="baseLayout">
+        <put-attribute name="title" value="Sắp lịch trực"/>
+        <put-attribute name="content" value="/WEB-INF/pages/arrangeSchedule.jsp"/>
+    </definition>
+    
+    <definition name="stats" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê báo cáo"/>
+        <put-attribute name="content" value="/WEB-INF/pages/stats.jsp"/>
+    </definition>
+</tiles-definitions>
