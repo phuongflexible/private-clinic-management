@@ -2,7 +2,7 @@
 A website which supports managing a private clinic.
 ## Table of contents
 * [General information](#general-information)
-* [Technologies used](#technogies-used)
+* [Technologies used](#technologies-used)
 * [Features](#features)
 * [Setup](#Setup)
 * [Project status](#project-status)
