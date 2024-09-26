@@ -7,6 +7,7 @@ A website which supports managing a private clinic.
 * [Setup](#Setup)
 * [Project status](#project-status)
 ## General information
+
 ## Technologies used
 - Java: programming languagge - version: 21.0.2
 - Spring MVC: web framework which supports to build and develop a web application
@@ -60,17 +61,18 @@ Doctors:
 ## Setup
 To run the project:
 ### Java
-- Make sure the equipment has been installed Java. If not, install at: [https://www.java.com/en/download/](https://www.java.com/en/download/)
+- Make sure the equipment has been installed Java. If not, install at: [https://www.java.com/en/download/](https://www.java.com/en/download/) .
 - Run the file .sql in MySQL to create the database.
-- Declare the database's name in: hibernate.connection.url=jdbc:mysql://localhost:3306/_database's name_
-- Declare the password of MySQL in: hibernate.connection.password=_MySQL's password_
+- Declare the database's name in: hibernate.connection.url=jdbc:mysql://localhost:3306/_database's name_ .
+- Declare the password of MySQL in: hibernate.connection.password=_MySQL's password_ .
 ### ReactJS
-- Make sure the equipment has been installed NodeJS. If not, install at: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
-- Install yarn: npm install -g yarn
-- Install axios: npm install
-- Install moment: npm install moment --save
+- Make sure the equipment has been installed NodeJS. If not, install at: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager) .
+- Install yarn: npm install -g yarn.
+- Install axios: npm install.
+- Install moment: npm install moment --save.
 - Run the project reactjs: yarn start
-
+## Project status
+This project is no longer being worked on because the subject has finished.
 
 
 
