@@ -24,11 +24,11 @@ Doctors:
 - See appointments made by patients.
 ## Setup
 To run the project:
-- Make sure the equipment has been installed Java.
+- Make sure the equipment has been installed Java. If not, install at: [https://www.java.com/en/download/](https://www.java.com/en/download/)
 - Run the file .sql in MySQL to create the database.
 - Declare the database's name in: hibernate.connection.url=jdbc:mysql://localhost:3306/_database's name_
 - Declare the password of MySQL in: hibernate.connection.password=_MySQL's password_
-- 
+- Make sure the equipment has been installed NodeJS. If not, install at: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 
 
 
