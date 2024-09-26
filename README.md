@@ -7,7 +7,15 @@ A website which supports managing a private clinic.
 * [Setup](#Setup)
 * [Project status](#project-status)
 ## General information
-
+A website which helps the patients make an appointment online with a doctor without waiting. Doctor can know list of patients they need to meet. Admin can manage human workforce, patients and drugs in the storage, arrange the schedule for doctors and nurses flexibly.
+## Table of contents
+* [General information](#general-information)
+* [Technologies used](#technogies-used)
+* [Features](#features)
+* [Setup](#Setup)
+* [Project status](#project-status)
+## General information
+A website which helps the patients make an appointment online with a doctor without waiting. Doctor can know list of patients they need to meet. Admin can manage human workforce, patients and drugs in the storage, arrange the schedule for doctors and nurses flex
 ## Technologies used
 - Java: programming languagge - version: 21.0.2
 - Spring MVC: web framework which supports to build and develop a web application
