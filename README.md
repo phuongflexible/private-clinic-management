@@ -33,7 +33,7 @@ To run the project:
 ### ReactJS
 - Make sure the equipment has been installed NodeJS. If not, install at: [https://nodejs.org/en/download/package-manager](https://nodejs.org/en/download/package-manager)
 - Install yarn: npm install -g yarn
-- Install axios: npm install
+- Install axios: npm install axios
 - Install moment: npm install moment --save.
 - Run the project reactjs: yarn start
 ## Project status
